@@ -1,0 +1,10 @@
+Uso offline (opcional)
+----------------------
+O index.html carrega o Three.js r128 pela internet (cdnjs). Se o CDN não responder, ele tenta
+ler este arquivo local:
+
+    vendor/three.min.js
+
+Baixe o three.min.js da versão r128 (https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js)
+e salve aqui com esse nome. As fontes (Google Fonts) são opcionais: sem internet a página usa fontes
+do sistema no lugar delas.
